@@ -1,0 +1,28 @@
+ImplementationFileExtensions: ['c','cc','cpp','cxx']
+HeaderFileExtensions: ['', 'h','hh','hpp','hxx']
+SystemHeaders: false
+FormatStyle: file
+WarningsAsErrors: '*'
+Checks: '
+bugprone-*,
+-bugprone-exception-escape,
+clang-analyzer-*,
+clang-diagnostic-*,
+cppcoreguidelines-*,
+-cppcoreguidelines-pro-bounds-pointer-arithmetic,
+misc-*,
+modernize-*,
+-modernize-use-trailing-return-type,
+performance-*,
+readability-*,
+-readability-braces-around-statements,
+google-global-names-in-headers,
+google-readability-avoid-underscore-in-googletest-name,
+google-readability-casting,
+google-runtime-float,
+google-upgrade-googletest-case,
+hicpp-exception-baseclass,
+'
+CheckOptions:
+  misc-const-correctness.AnalyzeValues: false
+  misc-include-cleaner.MissingIncludes: false

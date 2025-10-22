@@ -1,0 +1,30 @@
+Language: Cpp
+BasedOnStyle: Microsoft
+AccessModifierOffset: -4
+AlignAfterOpenBracket: DontAlign
+AlignEscapedNewlines: DontAlign
+AlignOperands: DontAlign
+AllowShortBlocksOnASingleLine: Empty
+AllowShortFunctionsOnASingleLine: Empty
+BreakBeforeBraces: Allman
+BreakConstructorInitializers: AfterColon
+BreakInheritanceList: AfterColon
+BreakTemplateDeclarations: Yes
+FixNamespaceComments: false
+IndentCaseBlocks: true
+IndentRequiresClause: false
+KeepEmptyLines:
+  AtStartOfBlock: false
+  AtStartOfFile: false
+LineEnding: LF
+NamespaceIndentation: All
+PointerAlignment: Left
+RemoveEmptyLinesInUnwrappedLines: true
+RequiresClausePosition: WithPreceding
+SortIncludes:
+  Enabled: true
+  IgnoreCase: true
+  #IgnoreExtension: true
+SortUsingDeclarations: Lexicographic
+SpaceAfterTemplateKeyword: false
+Standard: c++20
