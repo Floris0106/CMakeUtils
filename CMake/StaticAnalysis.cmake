@@ -1,7 +1,7 @@
 find_program(CLANG_TIDY_BIN clang-tidy)
 
 if (NOT CLANG_TIDY_BIN)
-    message(STATUS "clang-tidy not found, static analysis checks are disabled")
+    message(WARNING "clang-tidy not found, static analysis checks are disabled")
     return()
 endif ()
 

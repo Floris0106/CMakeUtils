@@ -4,7 +4,7 @@ if (UTILS_ENABLE_FORMATTING)
 
     if (NOT CLANG_FORMAT_BIN)
 
-        message(STATUS "clang-format not found, formatting checks are disabled")
+        message(WARNING "clang-format not found, formatting checks are disabled")
         set(UTILS_ENABLE_FORMATTING OFF)
 
     endif ()
